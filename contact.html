@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MV Construction</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/2cc9e49d43.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <header>
+            <img class="logo" src="images/MV.png"alt="logo" width="300" height="250"> 
+            <nav>
+                <ul class="navbar">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="contact.html"><button>Contact</button></a>
+        </header>
+    <div class="header-contact">
+        <h1><strong>Contact Us</strong></h1>
+    </div>
+    <div class="white-box-flex-container-inner"><div class="white-box-flex-container-inner-2">
+        <div class="flex-container">
+            <div class="textbox1">
+                <h1>Contact Information</h1>
+            </div>
+        <div class="imgaligntop">
+            <i class="fa-solid fa-location-dot"style="font-size: 1.5em;"></i>
+        </div>
+        
+        
+        
+        <div class="addresstxt">
+        <p>MV Construction<br>Ankersgade 12C, 1, 8000 Aarhus</p>
+        </div>
+        </div>
+        
+        <button class="addressbutton"><a href="https://www.google.com/maps/place/1086+Barmac+Dr,+North+York,+ON+M9L+1P9/@43.7654643,-79.556288,17z/data=!3m1!4b1!4m6!3m5!1s0x882b3003e5982c83:0x6255ed84c5d558e4!8m2!3d43.7654604!4d-79.5540993!16s%2Fg%2F11dft24t2b">Google Maps</a></button>
+        
+        <div class="is-layout-flex wp-container-7 wp-block-columns are-vertically-aligned-top">
+        <div class="phoneimg">
+            <i class="fa-solid fa-square-phone" style="font-size: 1.5em;"></i>
+        </div>
+        
+        
+        
+        <div class="phonenumbertxt">
+        <a>+1 416 870 3400</a>
+        </div>
+        </div>
+        
+        
+        
+        <div class="mailcontainer">
+        <div class="mailimg" style="flex-basis:5%">
+            <i class="fa-solid fa-square-envelope"style="font-size: 1.5em;"></i>
+        </div>
+        
+        
+            
+        
+        <div class="mailtxt" style="flex-basis:80%">
+        <p><a href="mailto:mail@sleeknote.com" target="_blank" rel="noreferrer noopener">mail@mvconsturction.com</a></p>
+        </div>
+        </div>
+        </div>
+        <div class="shipimg">
+            <figure class="ship"><img decoding="async" width="500" height="400" src="images/img5.jpeg" alt="Reno Photo" class="wp-image-107550"></noscript></figure>
+        </div>
+    </div>
+        </div>
+    </main>
+    <script>
+       var emailField = document.getElementById("email-field");
+       var emailLabel = document.getElementById("email-label");
+       var emailError = document.getElementById("email-error");
+
+       function validateEmail(){
+        if(!(emailField).value.match(/^[A-Za-z\._\-0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)){
+            emailError.innerHTML = "Please enter a valid email.";
+            return false;
+        }
+        emailError.innerHTML = "";
+        return true;
+        }
+
+    </script>
+</body>
+</html>
